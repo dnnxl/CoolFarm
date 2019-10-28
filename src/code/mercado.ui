@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mercado</class>
+ <widget class="QWidget" name="mercado">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>753</width>
+    <height>633</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>140</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Cant frutos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>140</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Monto total</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="ssMercadoAgricultor">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>721</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="bMercadoAgricultor">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>698</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>500</height>
+     </size>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_4"/>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>140</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Ubicacion</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>140</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Vendidos</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>140</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Arbol</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>601</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_65">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>30</y>
+     <width>141</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;Gill Sans Ultra Bold Condensed&quot;;
+color: rgb(90, 178, 255);
+gridline-color: rgb(13, 13, 13);
+border-color: rgb(18, 18, 18);</string>
+   </property>
+   <property name="text">
+    <string>Mar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_66">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>30</y>
+     <width>191</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 48pt &quot;Gill Sans Ultra Bold Condensed&quot;;
+color: rgb(255, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string>ket</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>140</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Perdidos</string>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="ssMercadoArticulos">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>420</y>
+     <width>721</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="bMercadoAritulo">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>698</width>
+      <height>500</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>500</height>
+     </size>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_30">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Semilla Árbol Heap</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_28">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>70</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_29">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Semilla Árbol Avl</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLabel" name="label_31">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>90</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QPushButton" name="pushButton_12">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="pushButton_13">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="0">
+      <widget class="QLabel" name="label_36">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Perro</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="0">
+      <widget class="QLabel" name="label_38">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Vaca</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="1">
+      <widget class="QLabel" name="label_37">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>300</string>
+       </property>
+      </widget>
+     </item>
+     <item row="13" column="2">
+      <widget class="QPushButton" name="pushButton_7">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="2">
+      <widget class="QPushButton" name="pushButton_9">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="2">
+      <widget class="QPushButton" name="pushButton_8">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="1">
+      <widget class="QLabel" name="label_35">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>150</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="0">
+      <widget class="QLabel" name="label_39">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Casa</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="label_34">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Gato</string>
+       </property>
+      </widget>
+     </item>
+     <item row="12" column="1">
+      <widget class="QLabel" name="label_33">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>200</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="1">
+      <widget class="QLabel" name="label_40">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>1000</string>
+       </property>
+      </widget>
+     </item>
+     <item row="15" column="2">
+      <widget class="QPushButton" name="pushButton_6">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_21">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>50</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_22">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string>Semilla Árbol Ordenado</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLabel" name="label_32">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>100</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="2">
+      <widget class="QPushButton" name="pushButton_10">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="label_27">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Semilla Árbol Splay</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="2">
+      <widget class="QPushButton" name="pushButton_11">
+       <property name="text">
+        <string>Comprar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="1">
+      <widget class="QLabel" name="label_41">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>500</string>
+       </property>
+      </widget>
+     </item>
+     <item row="14" column="0">
+      <widget class="QLabel" name="label_42">
+       <property name="styleSheet">
+        <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(9, 9, 9);</string>
+       </property>
+       <property name="text">
+        <string>Espantapájaros</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QTableView" name="tableView_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_15">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>380</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Articulos</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>330</y>
+     <width>131</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Vender Todo</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_6">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>50</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_16">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>60</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Dinero</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_17">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>380</y>
+     <width>91</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>Precios</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView_7">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>370</y>
+     <width>111</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_18">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>101</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../grocery.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lDinero">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>60</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Dinero</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bAceptar">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>580</y>
+     <width>71</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 170, 0);
+alternate-background-color: rgb(255, 170, 0);
+border-color: rgb(255, 170, 0);
+selection-color: rgb(255, 170, 0);
+selection-background-color: rgb(255, 170, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../../Downloads/CoolFarmImages/comprobado.png</normaloff>../../../Downloads/CoolFarmImages/comprobado.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="flat">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>140</y>
+     <width>81</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Vender </string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>590</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>Tiempo</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="cronometro">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>590</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;Kristen ITC&quot;;
+</string>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+  <zorder>tableView_4</zorder>
+  <zorder>ssMercadoAgricultor</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_66</zorder>
+  <zorder>label_14</zorder>
+  <zorder>ssMercadoArticulos</zorder>
+  <zorder>tableView_5</zorder>
+  <zorder>label_15</zorder>
+  <zorder>tableView_6</zorder>
+  <zorder>label_16</zorder>
+  <zorder>tableView_7</zorder>
+  <zorder>label_17</zorder>
+  <zorder>label_18</zorder>
+  <zorder>label_65</zorder>
+  <zorder>lDinero</zorder>
+  <zorder>bAceptar</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>label_19</zorder>
+  <zorder>cronometro</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
