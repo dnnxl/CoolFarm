@@ -1,4 +1,3 @@
-![CoolFarm Logo](https://github.com/dnnxl/CoolFarm/blob/master/demo/logo.PNG)
 
 Project
 
