@@ -9,14 +9,17 @@ Is a data structure project
   <img src="demo/menu.gif">
 </p>
 
-
 ## Play
-![Menu](demo/play-demo.gif)
-
+<p align="center">
+  <img src="demo/play-demo.gif">
+</p>
 
 ## Market
-![Menu](demo/play-market.gif)
-
+<p align="center">
+  <img src="play-market.gif">
+</p>
 
 ## Market sell
-![Menu](demo/market.gif)
+<p align="center">
+  <img src="demo/market.gif">
+</p>
