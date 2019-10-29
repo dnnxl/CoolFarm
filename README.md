@@ -4,7 +4,11 @@
 Is a data structure project
 
 ## Menu
-![Menu](demo/menu.gif)
+
+<p align="center">
+  <img width="460" height="300" src="demo/menu.gif">
+</p>
+
 
 ## Play
 ![Menu](demo/play-demo.gif)
