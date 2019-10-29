@@ -6,7 +6,7 @@ Is a data structure project
 ## Menu
 
 <p align="center">
-  <img width="460" height="300" src="demo/menu.gif">
+  <img src="demo/menu.gif">
 </p>
 
 
