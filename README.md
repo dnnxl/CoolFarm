@@ -1,7 +1,7 @@
 ![CoolFarm Logo](https://github.com/dnnxl/CoolFarm/blob/master/demo/coolFarm.PNG)
 
 ## Description
-Is a data structure project
+Is a data structure project.
 
 ## Menu
 
@@ -23,3 +23,6 @@ Is a data structure project
 <p align="center">
   <img src="demo/market.gif">
 </p>
+
+## Author 
+Danny Xie Li
